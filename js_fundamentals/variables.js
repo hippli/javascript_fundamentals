@@ -7,6 +7,15 @@
 // Store the following into variables: number of children, partner's name, geographic location, job title.
 // Output your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
 
+
+var children = 2;
+var partnerName = "Susan";
+var city = "Toronto";
+var jobTitle = "Product Manager";
+
+console.log("You will be a " + jobTitle + " in " + city + ", and married to " + partnerName + " with " + children + " kids.");
+
+
 // EXERCISE: The Age Calculator
 
 // Forgot how old someone is? Calculate it!
@@ -15,6 +24,13 @@
 // Store their birth year in a variable.
 // Calculate their 2 possible ages based on the stored values.
 // Output them to the screen like so: "They are either NN or NN", substituting the values.
+
+
+var currentYear = 2013;
+var birthYear = 1971;
+var age = currentYear - birthYear;
+
+console.log("They are either " + age + " or " + (age -1));
 
 // EXERCISE: The Lifetime Supply Calculator
 
@@ -26,6 +42,13 @@
 // Calculate how many you would eat total for the rest of your life.
 // Output the result to the screen like so: "You will need NN to last you until the ripe old age of X".
 
+var ageNow = 42;
+var ageMax = 90;
+var perDayAmount = 2;
+var result = (ageMax - ageNow) * 365 * perDayAmount;
+
+console.log("You will need " + result + " to last you until the ripe old age of " + ageMax);
+
 // EXERCISE: The Geometrizer
 
 // Calculate properties of a circle, using the definitions here.
@@ -33,6 +56,9 @@
 // Store a radius into a variable.
 // Calculate the circumference based on the radius, and output "The circumference is NN".
 // Calculate the area based on the radius, and output "The area is NN".
+
+
+
 
 // EXERCISE: The Temperature Converter
 
@@ -43,4 +69,10 @@
 // Now store a fahrenheit temperature into a variable.
 // Convert it to celsius and output "NN°F is NN°C."
 
+var celcius = 15;
+var fahrenheitConverted = celcius * 9 / 5 + 32;
+console.log(celcius + "°C is " + fahrenheitConverted + "°F.");
 
+var fahrenheit = 60;
+var celciusConverted = (fahrenheit - 32) * 5 / 9;
+console.log(fahrenheit + "°F is " + celciusConverted + "°C.");
