@@ -7,6 +7,16 @@
 // returns whichever number is the greater (higher) number.
 // Call that function 2 times with different number pairs, and log the output to make sure it works (e.g. "The greater number of 5 and 10 is 10.").
 
+function greaterNum(x, y) {
+	if (x > y) {
+
+		return console.log("The greater number of " + x + " and " + y + " is " + y);
+	}
+
+
+}
+
+
 // EXERCISE: The World Translator
 
 // Write a function named helloWorld that:
