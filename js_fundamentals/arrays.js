@@ -8,7 +8,10 @@
 
 
 var choices = ['yellow', 'red', 'blue'];
+var order = ['first', 'second', 'third'];
+
+console.log(choices);
 
 for (var i = 0; i < choices.length; i++){
-	console.log("My #1 choice is " + choices[i]);
+	console.log("My " + order[i] + " choice is " + choices[i]);
 }
