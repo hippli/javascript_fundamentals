@@ -21,6 +21,11 @@ for (var i = 0; i <= 20; i++) {
 // Bonus: Use a nested for loop to show the tables for every multiplier from 1 to 10 (100 results total).
 
 
+for (var i = 0; i <= 10; i++){
+	result = i * 9;
+	console.log(i + " * 9 = " + result);
+}
+
 
 // EXERCISE: The Grade Assigner
 

@@ -11,10 +11,13 @@
 // Modify the text of the button so that it says "Yahooo!" instead.
 
 
+var yahoo = "http://l.yimg.com/rz/d/yahoo_frontpage_en-CA_s_f_p_101x50_frontpage.png";
+var yahooImage = ("url(" + yahoo + ")");
+document.getElementById("hplogo").style.backgroundImage=yahooImage;
 
-// http://l.yimg.com/rz/d/yahoo_frontpage_en-CA_s_f_p_101x50_frontpage.png
-
-
+var googleSearchButton = document.getElementById("gbqfsa")
+var yahooSearch = "Yahoo"
+googleSearchButton.innerHTML = yahooSearch;
 
 // EXERCISE: About Me
 

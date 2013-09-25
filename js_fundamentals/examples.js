@@ -180,9 +180,28 @@
 // var fruits = [ "apples", "oranges", "mangos" ]; // [ "apple", "orange", "mango" ]
 // document.write(fruits);
 
+// ARRAYS - ITERATION
+// var rainbowColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet'];
+// for (var i = 0; i < rainbowColors.length; i++) {
+//   document.write(rainbowColors[i] + " , ");
+// }
 
-var rainbowColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet'];
-for (var i = 0; i < rainbowColors.length; i++) {
-  document.write(rainbowColors[i] + " , ");
-}
+// OBJECTS
+// var aboutMe = {
+//   hometown: "Pasadena, CA",
+//   hair: "brown",
+//   eyes: {left: "blue", right: "green"}
+// }; 
+
+// var myHometown = aboutMe.hometown; // "Pasadena, CA"
+// document.write(myHometown);
+// var eye = aboutMe.eyes.left
+// document.write("  Eye color: " + eye)
+
+
+// DOM
+// To return the title of an html page use the following:
+
+var str = document.title;
+document.write(str)
 
