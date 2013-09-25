@@ -29,4 +29,18 @@
 // Create a function to print out the movie information like so: "Puff the Magic Dragon lasts for 30 minutes. Stars: Puff, Jackie, Living Sneezes."
 
 
+var movie = function () {
+	name: "5th Element",
+	duration: 140,
+	stars: ["bruce willis", "mila jovovich", "gary oldman"],
+	to_s: function() {
+		var result = movie.name + " lasts " + movie.duration + " minutes. Starts: ";
+		result = result + movie.starts.join(", ");
+		return result
+	}
+}
 
+$(document).ready(function(){
+	$("p").text(movie.to_s());
+}
+	)
